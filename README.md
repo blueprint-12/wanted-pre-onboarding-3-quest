@@ -44,3 +44,5 @@ yarn && yarn start
 ### 설치 패키지
 
 1. react-router-dom v6
+2. MUI v5
+3. styled-components (CSS in JS)
