@@ -43,6 +43,7 @@ yarn && yarn start
 
 ### 설치 패키지
 
-1. react-router-dom v6
+1. react-router-dom v6 (\*리믹스 관련 내용 확인)
 2. MUI v5
 3. styled-components (CSS in JS)
+4. axios (http 통신)
