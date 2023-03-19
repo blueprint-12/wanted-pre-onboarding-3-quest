@@ -14,7 +14,7 @@ const GeneralLayout: React.FC<GeneralLayoutProps> = ({ children }) => {
   const { routeTo } = useRouter();
 
   const fetchUserProfile = useCallback(async () => {
-    // TODO 3-2: 페이지 이동시 마다 로그인 여부를 확인하는 함수 구현
+    // TODO: 페이지 이동시 마다 로그인 여부를 확인하는 함수 구현
     // 로그인 여부 확인 ('/profile' 호출 성공여부 확인)
     // 로그인 성공시 userProfile 상태 업데이트
     // 로그인 실패시 로그인 페이지로 이동 ('/login')
@@ -24,7 +24,7 @@ const GeneralLayout: React.FC<GeneralLayoutProps> = ({ children }) => {
   }, []);
 
   useEffect(() => {
-    // TODO 3-2: 페이지 이동시 마다 로그인 여부를 확인하는 함수 실행
+    // TODO: 페이지 이동시 마다 로그인 여부를 확인하는 함수 실행
     fetchUserProfile();
     console.log("page changed!");
   }, [children]);

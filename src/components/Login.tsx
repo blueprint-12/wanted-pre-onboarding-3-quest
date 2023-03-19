@@ -1,7 +1,7 @@
 import { getCurrentUserInfo, login } from "../api/login";
 import { useRouter } from "../hooks/useRouter";
 
-// TODO 3-2.: 이미 로그인된 유저인지 판별
+// TODO: 이미 로그인된 유저인지 판별
 const isLoggedIn = async (): Promise<boolean> => {
   const userProfileRes = await getCurrentUserInfo();
   return userProfileRes !== null;
